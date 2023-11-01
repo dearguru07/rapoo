@@ -1,0 +1,55 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  width: 450px;
+  margin: 30px auto;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.value {
+  width: 100%;
+  /* outline: none; */
+  border-radius: 10px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+button {
+  background-color: blueviolet;
+  color: white;
+  font-weight: bolder;
+  padding: 8px 27px;
+  margin-top: 12px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.box {
+  width: 24px;
+}
+.box:checked + P {
+  text-decoration: line-through;
+  /* text-decoration-color:blue ; */
+}
+p {
+  font-size: 20px;
+  margin: 0;
+}
+.tasks-list {
+  width: 450px;
+  margin: 30px auto;
+
+}
+.todo-flex {
+  display: flex;
+  background-color: grey;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 5px;
+  justify-content: start;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
